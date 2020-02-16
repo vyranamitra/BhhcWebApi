@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BhhcWebApi", "BhhcWebApi\BhhcWebApi.csproj", "{B8D4720F-DDB0-43E9-9537-0CAC9628383A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8D4720F-DDB0-43E9-9537-0CAC9628383A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D4720F-DDB0-43E9-9537-0CAC9628383A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D4720F-DDB0-43E9-9537-0CAC9628383A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D4720F-DDB0-43E9-9537-0CAC9628383A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3E73B81-777B-4EC1-AB81-5FA77188933B}
+	EndGlobalSection
+EndGlobal
