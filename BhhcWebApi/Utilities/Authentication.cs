@@ -38,6 +38,27 @@ namespace BhhcWebApi.Utilities
                 byte[] input = System.Convert.FromBase64String(encodedToken);
                 return System.Text.Encoding.UTF8.GetString(input);
             }
-        }
+
+            /// <summary>
+            /// Returns true if the decoded token matches the value of authToken
+            /// otherwise returns false
+            /// </summary>
+            /// <param name="token"></param>
+            /// <returns></returns>
+            public static bool IsAuthorized(string authToken, string inputToken)
+            {
+                if (string.IsNullOrEmpty(authToken))
+                {
+                    throw new ArgumentNullException("authToken");
+                }
+                if (string.IsNullOrEmpty(inputToken))
+                {
+                    throw new ArgumentNullException("inputToken");
+                }
+                string decodedToken = Utilities.Authentication.DecodeToken(inputToken);
+                return (authToken.Equals(decodedToken) ? true : false);
+            }
+
+    }
     
 }
