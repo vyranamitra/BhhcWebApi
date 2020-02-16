@@ -10,7 +10,7 @@ namespace BhhcWebApi.Controllers
     public class HomeController : ApiController
     {
         // GET: Home
-        public IHttpActionResult Index()
+        public IHttpActionResult Get()
         {
             HttpContext httpContext = HttpContext.Current;
             return Ok("Hello World!!");
