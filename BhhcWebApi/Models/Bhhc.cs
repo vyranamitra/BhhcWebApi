@@ -31,15 +31,15 @@ namespace BhhcWebApi.Models
             _reasons = new List<Reason>();
             _reasons.Add(new Reason
             {
-                Text = "Reason 1"
+                Text = "Be a part of the Berkshire Hathaway family"
             });
             _reasons.Add(new Reason
             {
-                Text = "Reason 2"
+                Text = "Create innovative solutions that help users be more efficient and productive."
             });
             _reasons.Add(new Reason
             {
-                Text = "Reason 3"
+                Text = "Work, learn, advance."
             });
 
         }
